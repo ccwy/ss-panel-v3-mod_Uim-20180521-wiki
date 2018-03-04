@@ -17,9 +17,7 @@ $System_Config['merchant_private_key']='MIIExxxxxxxxxxxxxxxxxxx';
 
 #### 第一个位置： `$System_Config['f2fpay_app_id']=''`
 
-这个是支付宝商家平台里的APPID，开通收款码服务后进入支付宝商家平台签约管理，查看PID和Key
-https://openhome.alipay.com/platform/keyManage.htm
-有一个基础应用，就是那个APPID
+这个是支付宝开放平台里的APPID，开通收款码服务后进入支付宝开放平台，进入开发者中心新建一个app提交审核后记下APPID
 
 #### 第二个位置： `$System_Config['f2fpay_p_id']`
 
