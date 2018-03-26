@@ -1,6 +1,7 @@
 ## 参考站点：[树洞VPN](https://vpn.myqdu.cn/)
 <p>本WIKI写的已经详细过头了，如果你还是看不懂，请左转91VPS一键包</p>
-<p>不要再去TG群问了，大家的时间都很宝贵，如果想用的话可以[付费搭建](https://t.me/myqdu/)</p>
+<p>如果看完还不懂，请不要再去TG群问了，大家的时间都很宝贵</p>
+<h2> 可以<a href=//t.me/myqdu.>付费搭建</a></p>200一位</h2>
 <p>本教程属于全新安装教程，请使用纯净系统</p>
 <p>本教程基于宝塔面板，服务器环境为Ubuntu16.04 64位系统，其他系统请自行适配</p>
 <p>首先，SSH到你的服务器，putty或者xshell都可以</p>
@@ -30,6 +31,7 @@
 <p>登陆后有个弹出的对话框让你安装，直接关掉，点击左边的软件管理</p>
 <p>请务必选择Nginx 1.8 + Php 7.1 + Mysql 5.6 + Phpmyadmin 4.7，请务必编译安装</p> 
 <p>web环境配置好后</p>
+<p>在网站管理里面添加网站，有域名写域名，没域名写IP</p>
 <pre><code>cd /你的网站目录  例：cd /www/wwwroot/sspanel
 git clone -b master https://github.com/NimaQu/ss-panel-v3-mod_UIChanges.git tmp && mv tmp/.git . && rm -rf tmp && git reset --hard
 chown -R root:root *
@@ -49,23 +51,7 @@ mv -f tool/autoload_classmap.php vendor/composer/
 <h3>
 <a id="user-content-配置数据库" class="anchor" href="#%E9%85%8D%E7%BD%AE%E6%95%B0%E6%8D%AE%E5%BA%93" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>配置数据库</h3>
 <p>使用Phpmyadmin登陆数据库</p>
-创建一个数据库
-
-<h3>
-<a id="user-content-配置-sspanel" class="anchor" href="#%E9%85%8D%E7%BD%AE-sspanel" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>配置 sspanel</h3>
-<pre><code>cd /网站目录
-cp config/.config.php.example config/.config.php
-vi config/.config.php
-lnmp restart
-</code></pre>
-<h3>
-<a id="user-content-创建管理员并同步用户" class="anchor" href="#%E5%88%9B%E5%BB%BA%E7%AE%A1%E7%90%86%E5%91%98%E5%B9%B6%E5%90%8C%E6%AD%A5%E7%94%A8%E6%88%B7" aria-hidden="true"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>创建管理员并同步用户</h3>
-<pre><code>php xcat createAdmin          //创建管理员
-php xcat syncusers            //同步用户
-php xcat initQQWry            //下载IP解析库
-php xcat resetTraffic         //重置流量
-php xcat initdownload         //下载ssr程式
-
-</code></pre>
+<p>创建一个数据库，名字随意，格式utf8-general-ci</p>
+<p>导入glzgin_all.sql和YftOrder.sql（文件在网站目录/tool）</p>
 
 未完待续
