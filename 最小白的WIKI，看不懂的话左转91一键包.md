@@ -11,6 +11,7 @@
 <code>apt install wget git python-pip gcc cmake make libc6-dev -y</code><br />
 <code>pip install setuptools</code><br />
 <code>pip install cymysql</code><br />
+<code>pip install requests</code><br />
 <code>wget https://download.libsodium.org/libsodium/releases/LATEST.tar.gz</code><br />
 <code>tar -zxvf L*gz</code><br />
 <code>cd lib*</code><br />
