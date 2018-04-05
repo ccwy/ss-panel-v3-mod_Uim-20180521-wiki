@@ -1,4 +1,5 @@
 原文 https://91vps.bid/2017/06/09/alipay_f2f_ss_panel_mod/
+如需代签约当面付请Telegram联系[守夜人](https://t.me/shouyeren)
 
 ### 支付宝付款接口配置
 
@@ -17,7 +18,7 @@ $System_Config['merchant_private_key']='MIIExxxxxxxxxxxxxxxxxxx';
 
 #### 第一个位置： `$System_Config['f2fpay_app_id']=''`
 
-这个是支付宝开放平台里的APPID，开通收款码服务后进入支付宝开放平台，进入开发者中心新建一个app提交审核后记下APPID
+这个是支付宝开放平台里的APPID，开通收款码服务后进入支付宝开放平台，签约**自研开发者**后进入开发者中心新建一个app提交审核后记下APPID
 
 #### 第二个位置： `$System_Config['f2fpay_p_id']`
 
