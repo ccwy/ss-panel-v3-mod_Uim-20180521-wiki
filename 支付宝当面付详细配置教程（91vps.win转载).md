@@ -11,7 +11,7 @@ $System_Config['alipay_public_key']='MIIBxxxxxxxxxxxxxx';
 $System_Config['merchant_private_key']='MIIExxxxxxxxxxxxxxxxxxx';
 ```
 
-一共有五个位置要填写：
+一共有四个位置要填写：
 
 #### 密钥生成工具请使用支付宝官方工具，注意红框内的选项。
 
