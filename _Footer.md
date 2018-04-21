@@ -1,1 +1,1 @@
-Powerd by [xfj.one](xfj.one)
+TG 群组 [魔改修改版(项目地址： https://github.com/NimaQu/ss-panel-v3-mod_Uim 频道: @sspanel_Uim 询问Google能解决的问题、自己动手能操作试一试解决的问题，Wiki已说明问题，报 issue 没日志( php log / console ) ，一律warn，三次飞机票 https://github.com/FredWe/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)](https://github.com/NimaQu/ss-panel-v3-mod_Uim)
