@@ -1,1 +1,1 @@
-Welcome to the ss-panel-v3-mod_UIChanges wiki!
+wiki 已经启用，欢迎大家共同完善 wiki ,大多数问题都可以在右侧找到解决方案
