@@ -1,4 +1,4 @@
-`ss-panel-v3-mod_Uim 开发团队仅为面板的用户提供 V2Ray 后端对接功能，V2Ray 节点后端与 ss-panel-v3-mod_Uim 面板无关。ss-panel-v3-mod_Uim 开发团队不对节点后端提供任何形式的保证：不保证后端程序能满足您的要求或您的服务不会中断。如果您因为 V2Ray 节点后端的使用而引发的一切纠纷，应自行准备相关材料，及时与 V2Ray 节点后端开发者联系，ss-panel-v3-mod_Uim 开发团队不承担不相关任何责任。`
+`**ss-panel-v3-mod_Uim 开发团队仅为面板的用户提供 V2Ray 后端对接功能，V2Ray 节点后端与 ss-panel-v3-mod_Uim 面板无关。ss-panel-v3-mod_Uim 开发团队不对节点后端提供任何形式的保证：不保证后端程序能满足您的要求或您的服务不会中断。如果您因为 V2Ray 节点后端的使用而引发的一切纠纷，应自行准备相关材料，及时与 V2Ray 节点后端开发者联系，ss-panel-v3-mod_Uim 开发团队不承担不相关任何责任。**`
 
 # V2ray Backend 用法
 ## 站点设定
