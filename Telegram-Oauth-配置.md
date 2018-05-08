@@ -1,6 +1,6 @@
 # 概述
 
-~~明明Telegram都给了官方登陆方式了，为什么还要用那么麻烦的扫码和数字呢？~~  
+~~明明 Telegram 都给了官方登陆方式了，为什么还要用那么麻烦的扫码和数字呢？~~  
 方便快捷，一次授权，后续直接跳转，：）
 ![登陆效果](http://ww1.sinaimg.cn/large/d0953529ly1fr3yx5wg36j20n00hdq5r.jpg)
 
@@ -12,7 +12,7 @@
 - 给 [@Botfather](https://t.me/botfather) 发一句 `/setdomain`
 - 选你要设置的机器人
 - 回复你的网站**域名**
-    - 比如，你的登陆页面是`https://example.com/auth/login`,你只要发给他`example.com`就好了
+    - 比如，你的登陆页面是`https://example.com/auth/login`，你只要发给他`example.com`就好了
     - 如果是`https://xxx.example.com/auth`，那么是`xxx.example.com`
 - 起飞！
 
@@ -27,4 +27,6 @@
 - 这玩意用的是`async`载入的，不会阻塞页面其他内容加载
 - 别试图自己反代这个脚本或者什么重新适配，后面的故事远不止如此
     - 也就是说如果**访问者**（不是网站主机）不能科学上网的的话，一键登陆是用不了滴
+- 如果登陆人的 Telegram 的名字太长，会……影响网页排版，这是正常现象。
+    - 但是，这只会恶心到TA自己吧：)~~没事别搞那么长的名字嘛~~
 
