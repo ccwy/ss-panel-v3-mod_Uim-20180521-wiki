@@ -16,7 +16,7 @@
 
 并将节点类型选为 `V2Ray`
 
-> 联系 order@indexyz.me 获取后端
+> 联系 Telegram @IDCFCloud 获取后端
 
 当你获取了后端之后
 
